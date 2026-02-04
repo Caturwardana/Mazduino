@@ -30,7 +30,7 @@ You are **not required** to use the `rusefi.hex` file that may be present in thi
 ## Configuration Files
 
 Check the `basetune/` directory for:
-- Base tune files (.rusefi_config)
+- Base tune files (.msq)
 - Configuration templates
 - Sensor calibration data
 
