@@ -51,6 +51,7 @@ For tuning and configuration, you can use the Tuner Studio software.
 
 ### Other Versions
 - [Interactive BOM v1.3](https://www.mazduino.com/ibom/mini6ch-1-3-ibom.html)
+- [Interactive BOM v1.3B](https://www.mazduino.com/ibom/mini6ch-1-3b-ibom.html)
 - [Interactive BOM v1.2](https://www.mazduino.com/ibom/mini6ch-1-2-ibom.html)
   
 ## Changelog
@@ -71,6 +72,12 @@ For tuning and configuration, you can use the Tuner Studio software.
 ### v1.3
 - Added ETB support
 - Added Knock sensor support
+
+### v1.3B
+- Added 1 spare input to support ETB. For ETB to work, it needs TPS1, TPS2, PPS1, PPS2. Previously PPS2 shared with O2/IAT input (unused analog input)
+- CAN IC only supports TJA1051T/J/3 (Solder jumper for MCP2551 removed)
+- Footprint optimization
+- DRV8825 module support is still maintained
 
 ### v1.4 (latest)
 - Added spare inputs to support TPS1, TPS2, PPS1, PPS2
