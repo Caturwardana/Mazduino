@@ -49,6 +49,45 @@ This project uses the **rusEFI WBO F0** firmware, which provides:
 - 12V power supply
 - **CAN bus connection** to ECU (primary communication method)
 
+### Connector Pinout
+
+The Mazduino WBO uses a **Molex 2x6 connector** for easy assembly and cost-effective connections.
+
+![Mazduino WBO Front](v1/render/rusEFI-Wideband-FRONT.png)
+
+#### Pinout Layout:
+
+<table>
+<tr>
+<td>Heater+</td>
+<td>CANH</td>
+<td>LSU_Un</td>
+<td>LSU_Rtrim</td>
+<td>LSU_Vm</td>
+<td>Empty</td>
+</tr>
+<tr>
+<td>+12V</td>
+<td>CANL</td>
+<td>Empty</td>
+<td>Heater-</td>
+<td>LSU_Ip</td>
+<td>GND</td>
+</tr>
+</table>
+
+*Row 1 (Top) and Row 2 (Bottom) of the Molex 2x6 connector*
+
+#### LSU 4.9 Wire Colors:
+| Signal     | Wire Color | Pin Location |
+|:-----------|:-----------|:-------------|
+| LSU_Ip     | Red        | Row 2, Pin 5 |
+| Heater-    | White      | Row 2, Pin 4 |
+| Heater+    | Grey       | Row 1, Pin 1 |
+| LSU_Vm     | Yellow     | Row 1, Pin 5 |
+| LSU_Rtrim  | Green      | Row 1, Pin 4 |
+| LSU_Un     | Black      | Row 1, Pin 3 |
+
 ### Assembly
 1. Follow the assembly guide in the `v1/` directory
 2. Refer to the BOM (Bill of Materials) for required components
