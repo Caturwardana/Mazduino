@@ -18,6 +18,10 @@ A lightweight and compact ECU designed for **4-cylinder engines with full sequen
 ![Mazduino Display](Mazduino-Display/v1.1/mazduino-dash-canbus.jpg)
 A dedicated dashboard ECU display module that shows real-time vehicle data retrieved from the main ECU.
 
+## Mazduino WBO (Wideband Oxygen Sensor Controller)
+![Mazduino WBO](Mazduino-WBO/v1/render/rusEFI-Wideband-FRONT.png)
+A wideband oxygen sensor controller that communicates with the ECU via CAN bus for accurate air-fuel ratio monitoring. Supports LSU 4.2, LSU 4.9, and LSU 4.9 Adv sensors with easy manual assembly design.
+
 *Documentation for all variants will be updated as soon as possible.*
 
 
