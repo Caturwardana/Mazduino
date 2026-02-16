@@ -36,7 +36,6 @@ The Mazduino WBO provides accurate air-fuel ratio (AFR) monitoring for engine tu
 This project uses the **rusEFI WBO F0** firmware, which provides:
 - Accurate AFR readings
 - CAN bus communication
-- Serial communication support
 - Calibration and diagnostic features
 
 **Firmware Source**: [rusEFI WBO F0 Implementation](https://github.com/rusefi/rusefi/pull/8870)
